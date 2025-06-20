@@ -16,12 +16,15 @@ jobs:
       files: |
         config/pkg-a-radar-c4001.yaml
         config/pkg-a-radar-ld2410.yaml
-        config/pkg-a-radar-ld2450-mtmz.yaml
-        config/pkg-a-radar-ld2450-stsz.yaml
-        config/pkg-b-radar-c4001.yaml
-        config/pkg-b-radar-ld2410.yaml
-        config/pkg-b-radar-ld2450-mtmz.yaml
-        config/pkg-b-radar-ld2450-stsz.yaml
+      # files: |
+      #   config/pkg-a-radar-c4001.yaml
+      #   config/pkg-a-radar-ld2410.yaml
+      #   # config/pkg-a-radar-ld2450-mtmz.yaml
+      #   # config/pkg-a-radar-ld2450-stsz.yaml
+      #   # config/pkg-b-radar-c4001.yaml
+      #   # config/pkg-b-radar-ld2410.yaml
+      #   # config/pkg-b-radar-ld2450-mtmz.yaml
+      #   # config/pkg-b-radar-ld2450-stsz.yaml
       esphome-version: latest
       # combined-name: project-template
       #### Modify above here to match your project ####
