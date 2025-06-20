@@ -1,13 +1,13 @@
 # Repository Setup
 
-- [ ] Replace the *.yaml files in the root of the repository with your project specific YAML configuration(s).
-- [ ] `.github/workflows/publish-firmware.yml` 
-    - [ ] `files` - Update YAML config filename(s).
-    - [ ] `esphome-version` - Update ESPHome version.
-    - [ ] `combined-name` - Update the combined name of the firmware. 
+- [X] Replace the *.yaml files in the root of the repository with your project specific YAML configuration(s).
+- [X] `.github/workflows/publish-firmware.yml` 
+    - [X] `files` - Update YAML config filename(s).
+    - [X] `esphome-version` - Update ESPHome version.
+    - [X] `combined-name` - Update the combined name of the firmware. 
           Remove this line if you only target one microcontroller chip.
-- [ ] `.github/workflows/ci.yml` 
-    - [ ] `matrix` -> `file` - Update YAML config filename(s).
+- [X] `.github/workflows/ci.yml` 
+    - [X] `matrix` -> `file` - Update YAML config filename(s).
 - [ ] `static/_config.yml` 
     - [ ] Set the title.
     - [ ] Set the description.
